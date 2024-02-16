@@ -184,6 +184,10 @@ span{
 .portfolio-img img{
     margin: 10px;
 }
+.portfolio-img img:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
 
 
 /* subscribe-section */
