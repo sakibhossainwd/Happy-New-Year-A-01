@@ -1,0 +1,260 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto", sans-serif;
+}
+#main-body{
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+}
+.button{
+    margin-top: 2%;
+    background: #FF0000;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+.flex{
+    display: flex;
+    gap: 10px;
+}
+.button:hover{
+    background: #c00b0b;
+    transition: 0.2s;
+}
+.cover-section{
+    margin-top: 5%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url(./resources/Banner\ Image.png);
+    width: 100%;
+    height: 800px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    text-align: center;
+    place-items: center;
+    color: aliceblue;
+    border-radius: 20px;
+}
+.cover-content h1{
+    width: 632px;
+    font-size: 72px;
+}
+.cover-content h5{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+/* Off section */
+.off-section{
+    margin-top: 7%;
+    text-align: center;
+}
+.off-section h1{
+    font-size: 80px;
+}
+.color-red{
+    color: red;
+}
+.off-section p{
+   margin-top: 2%;
+   font-size: 20px;
+   font-weight: 500;
+   margin-bottom: .5%;
+}
+.off-section h3{
+    font-size: 40px;
+}
+.off-section img{
+    margin-top: 3%;
+}
+
+/* welcome section */
+.welcome-section{
+    margin-top: 7%;
+    background-image: linear-gradient(to right, #000000, #ffffff00), url(./resources/Vectorrr.png);
+    width: 100%;
+    height: 800px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    /* place-items: center; */
+    align-items: center;
+    color: aliceblue;
+    border-radius: 20px;
+}
+.welcome-content{
+    display: flex;
+    gap: 10%;
+    padding: 0 10%;
+    align-items: center;
+}
+.welcome-msg h1{
+    width: 632px;
+    font-size: 72px;
+}
+.welcome-msg p{
+    margin: 2% 0;
+}
+
+
+/* date section */
+.date-section{
+   margin-top: 7%;
+   background-image: linear-gradient(rgba(255, 194, 194, 0.6), rgba(0, 0, 0, 0));
+   height: 600px;
+   border-radius: 20px;
+   display: grid;
+   text-align: center;
+   align-items: center;
+   font-size: 25px;
+   gap: 5%;
+}
+.date-content h1{
+    margin-bottom: 15px;
+}
+span{
+    color: red;
+}
+
+/* coming soon section */
+.coming-content{
+    margin-top: 7%;
+    display: flex;
+    gap: 10%;
+    /* display: grid; */
+    align-items: center;
+}
+.coming-1{
+    width: 30%;
+}
+.coming-1 h5{
+    font-size: 20px;
+}
+.coming-1 h1{
+    font-size: 45px;
+    margin: 8px 0;
+}
+.coming-2{
+    width: 40%;
+    background-color: #ffffff;
+    height: 365px;
+    width: 365px;
+    border: solid 20px rgb(223, 39, 15);
+    border-radius: 50%;
+}
+.coming-3{
+    width: 30%;
+}
+.coming-3 h1{
+    font-size: 45px;
+    margin-top: 90px;
+}
+.coming-3 img{
+    margin-top: 40px;
+}
+
+
+/* protfolio section */
+.portfolio-section{
+    margin-top: 10%;
+}
+.portfolio-heading{
+    width: 50%;
+}
+.portfolio-heading h5{
+    font-size: 20px;
+    font-weight: 400;
+}
+.portfolio-heading h1{
+    font-size: 45px;
+    margin: 8px 0;
+}
+.portfolio-img{
+   margin-top: 20px;
+}
+.portfolio-img img{
+    margin: 10px;
+}
+
+
+/* subscribe-section */
+.subscribe-section{
+    margin-top: 10%;
+    background: #ff000017;
+    border-radius: 20px;
+    text-align: center;
+    padding: 100px;
+    display: grid;
+    align-items: center;
+}
+.subscribe-heading{
+    width: 60%;
+    margin: 0% auto;
+}
+.subscribe-heading h1{
+    font-size: 45px;
+    margin: 15px 0;
+}
+.subscribe-input{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.subscribe-input input{
+    border: none;
+    padding: 15px 100px 15px 25px;
+    border-radius: 50px 0 0 50px;
+}
+#subscribe-btn{
+    background: red;
+    color: white;
+    padding: 15px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 0 50px 50px 0;
+}
+
+/* footer part */
+footer{
+    margin-top: 10%;
+    background-color: #060616;
+    color: white;
+    height: 650px;
+}
+#footer-centent{
+    width: 80%;
+    margin: 0 auto;
+}
+.address-mail{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+}
+.address{
+    width: 20%;
+}
+hr{
+    border: solid 0.2px rgb(114, 114, 114);
+}
+.social-icons{
+   padding: 50px 0;
+   display: flex;
+   gap: 20px;
+   justify-content: center;
+}
+.copy-right{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+}
