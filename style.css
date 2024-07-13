@@ -148,7 +148,7 @@ span{
     background-color: #ffffff;
     height: 365px;
     width: 365px;
-    border: solid 20px rgb(223, 39, 15);
+    border: solid 20px rgb(223, 15, 15);
     border-radius: 50%;
 }
 .coming-3{
@@ -216,7 +216,7 @@ span{
 .subscribe-input input{
     border: none;
     padding: 15px 100px 15px 25px;
-    border-radius: 50px 0 0 50px;
+    border-radius: 50px 0 0 0px;
 }
 #subscribe-btn{
     background: red;
@@ -224,7 +224,7 @@ span{
     padding: 15px 40px;
     font-size: 15px;
     border: none;
-    border-radius: 0 50px 50px 0;
+    border-radius: 0 0px 50px 0;
 }
 
 /* footer part */
